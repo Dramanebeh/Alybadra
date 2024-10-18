@@ -1,0 +1,8 @@
+section, article, aside, div{
+  border-radius: 5px;
+  width: 400px;
+ height: 320px;
+ background-color: blue;
+ color: white;
+
+}

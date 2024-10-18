@@ -1,0 +1,92 @@
+body{
+background-image: url(ture.png);
+background-attachment: fixed;
+
+}
+div{
+	display: inline-block;
+	position: relative;
+	bottom: -250px;
+	right: -130px;
+	background-image: url(ture.png);
+}
+center:hover{
+	transition: 0.5s;
+	transform: scale(1.2 );
+	background-color:black;
+	border-radius: 20px;
+}
+h1{
+	color: silver;
+	font-family: arial black;
+	font-size: 2rem;
+	text-align: center;
+	text-shadow: 10px 11px 11px  whitesmoke;
+}
+.un{
+	border-radius: 50%;
+	width:100px ;
+	height: 100px;
+	background: green;
+	animation: un 3s ease-in infinite;
+	animation-delay:2.2S;
+	bottom: 300px; 
+}
+@keyframes un{
+0%{
+transform:translateY(10px);
+}
+50%{
+	transform: translatey(350px);
+}
+100%{
+	transform:translateY(10px);
+}
+}
+
+
+
+.deux{
+	border-radius: 50%;
+	width:100px ;
+	height: 100px;
+	background: yellow;
+	animation: deux 3s ease-in infinite;
+	animation-delay:1.3S;
+	bottom: 240px; 
+}
+@keyframes deux{
+0%{
+transform:translateY(10px);
+}
+50%{
+	transform: translatey(350px);
+}
+100%{
+	transform:translateY(10px);
+}
+}
+
+
+.trois{
+	border-radius: 50%;
+	width:100px ;
+	height: 100px;
+	background: red;
+	animation: trois 3s ease-in infinite;
+	animation-delay:3.2S; 
+	bottom: 220px;
+}
+@keyframes trois{
+0%{
+transform:translateY(10px);
+}
+50%{
+	transform: translatey(250px);
+}
+100%{
+	transform:translateY(10px);
+}
+}
+
+

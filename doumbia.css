@@ -1,0 +1,95 @@
+body{
+	margin: 100px;
+	border: 8px inset red;
+	background-image:url(ga.jpg);
+	background-attachment: fixed;
+	width: 1030px;
+	height: 970px;
+
+	
+}
+footer{
+	border:5px double white;
+	width: 475px;
+	height: 330px;
+	margin-left:5px ;
+background-color: blue;
+color: whitesmoke;
+}
+
+
+
+li{
+	display: inline;
+	background-color: blueviolet;
+	margin: 10px;
+	font-size: 25px;
+	color: white;
+}
+.mole{
+	border: 5px double antiquewhite;
+	color: whitesmoke;
+	background-image: url(eye.png);
+
+
+}
+#pie{
+	border-radius:3px solid aquamarine  ;
+	width: 430px;
+	height: 440px;
+	float: right;
+	margin-top: 120px;
+	margin-right: 3px;
+	background-color: aquamarine;
+}
+
+hgroup{
+	border:3px  solid black ;
+	width: 430px;
+	height: 110px;
+	float: right;
+	margin-bottom: 148px;
+	margin-right: -435px;
+	background-color: black;
+	color: whitesmoke;
+}
+
+nav li:hover{
+	border: solid blueviolet 20px;
+}
+
+nav ol{
+	background-color: blueviolet;
+	width: 560px;
+	height: 30px;
+}
+article{
+	border-radius:12px ;
+		padding: 19px;
+	margin-top:410px;
+	font-size: 19px ;
+	background-image:url(watch.png) ;
+	width: 600px;
+	
+	
+}
+a{
+	padding: 10px;
+	margin:-10;
+}
+aside{
+	float: right;
+	border: 3px solid pink;
+	margin-top: -240px;
+	width: 430px;
+	height: 110px;
+	margin-right: 40px;
+	text-align: justify;
+	overflow: scroll;
+    background-color: pink;
+}
+
+div{
+	text-align: right;
+	color: blue;
+}
